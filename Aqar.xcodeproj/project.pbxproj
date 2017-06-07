@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84BDF6A21EE8B2E600CAB851 /* ForgotPasswordViwController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BDF6A11EE8B2E600CAB851 /* ForgotPasswordViwController.m */; };
 		84C1D85E1EE86E7900419102 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1D85D1EE86E7900419102 /* main.m */; };
 		84C1D8611EE86E7900419102 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1D8601EE86E7900419102 /* AppDelegate.m */; };
 		84C1D8641EE86E7900419102 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1D8631EE86E7900419102 /* ViewController.m */; };
 		84C1D8671EE86E7900419102 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C1D8651EE86E7900419102 /* Main.storyboard */; };
 		84C1D8691EE86E7900419102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C1D8681EE86E7900419102 /* Assets.xcassets */; };
 		84C1D86C1EE86E7900419102 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C1D86A1EE86E7900419102 /* LaunchScreen.storyboard */; };
+		84C1D8741EE86EBF00419102 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1D8731EE86EBF00419102 /* launch.png */; };
+		84F9327C1EE88B9D00C224C7 /* person.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9327B1EE88B9D00C224C7 /* person.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84BDF6A01EE8B2E600CAB851 /* ForgotPasswordViwController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForgotPasswordViwController.h; path = ../ForgotPasswordViwController.h; sourceTree = "<group>"; };
+		84BDF6A11EE8B2E600CAB851 /* ForgotPasswordViwController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForgotPasswordViwController.m; path = ../ForgotPasswordViwController.m; sourceTree = "<group>"; };
 		84C1D8591EE86E7900419102 /* Aqar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aqar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C1D85D1EE86E7900419102 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84C1D85F1EE86E7900419102 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +31,8 @@
 		84C1D8681EE86E7900419102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84C1D86B1EE86E7900419102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84C1D86D1EE86E7900419102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C1D8731EE86EBF00419102 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		84F9327B1EE88B9D00C224C7 /* person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +65,17 @@
 		84C1D85B1EE86E7900419102 /* Aqar */ = {
 			isa = PBXGroup;
 			children = (
+				84BDF6A01EE8B2E600CAB851 /* ForgotPasswordViwController.h */,
+				84BDF6A11EE8B2E600CAB851 /* ForgotPasswordViwController.m */,
 				84C1D85F1EE86E7900419102 /* AppDelegate.h */,
 				84C1D8601EE86E7900419102 /* AppDelegate.m */,
 				84C1D8621EE86E7900419102 /* ViewController.h */,
+				84F9327B1EE88B9D00C224C7 /* person.png */,
 				84C1D8631EE86E7900419102 /* ViewController.m */,
 				84C1D8651EE86E7900419102 /* Main.storyboard */,
 				84C1D8681EE86E7900419102 /* Assets.xcassets */,
 				84C1D86A1EE86E7900419102 /* LaunchScreen.storyboard */,
+				84C1D8731EE86EBF00419102 /* launch.png */,
 				84C1D86D1EE86E7900419102 /* Info.plist */,
 				84C1D85C1EE86E7900419102 /* Supporting Files */,
 			);
@@ -140,6 +151,8 @@
 				84C1D86C1EE86E7900419102 /* LaunchScreen.storyboard in Resources */,
 				84C1D8691EE86E7900419102 /* Assets.xcassets in Resources */,
 				84C1D8671EE86E7900419102 /* Main.storyboard in Resources */,
+				84C1D8741EE86EBF00419102 /* launch.png in Resources */,
+				84F9327C1EE88B9D00C224C7 /* person.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +165,7 @@
 			files = (
 				84C1D8641EE86E7900419102 /* ViewController.m in Sources */,
 				84C1D8611EE86E7900419102 /* AppDelegate.m in Sources */,
+				84BDF6A21EE8B2E600CAB851 /* ForgotPasswordViwController.m in Sources */,
 				84C1D85E1EE86E7900419102 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +323,7 @@
 				84C1D8721EE86E7900419102 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
